@@ -1,0 +1,11 @@
+case_1:
+  url: "http://localhost:7001/my_note_space/fetch_notes"
+  method: "GET"
+  params: None
+  status_code: 200
+
+case_2:
+  url: "http://localhost:7001/my_note_space/write_note"
+  method: "POST"
+  payload: {'data':"cool"}
+  status_code: 400
